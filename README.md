@@ -55,7 +55,7 @@ const targetAngle = 180;
 distances(targetAngle, [45, 50, 55]);
 
 // calculate average
-average(45, 50, 55, 60);
+average([45, 50, 55, 60]);
 
 // calculate weighted average
 // weights do not have to add to 1
