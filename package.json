@@ -1,0 +1,21 @@
+{
+  "name": "angle-helper",
+  "version": "0.0.0",
+  "description": "Helper functions for working with angles and degrees",
+  "main": "./dist/index.js",
+  "module": "./src/index.js",
+  "repository": "git@github.com:jlarmstrongiv/angle-helper.git",
+  "author": "John Armstrong <jlarmst@g.clemson.edu>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "npx babel ./src --out-dir ./dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4"
+  },
+  "dependencies": {}
+}
