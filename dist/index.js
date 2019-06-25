@@ -40,14 +40,14 @@ Object.defineProperty(exports, "weightedAverage", {
   }
 });
 
-var _average = _interopRequireDefault(require("./average"));
+var _average = _interopRequireDefault(require("./average/average"));
 
-var _converter = require("./converter");
+var _converter = require("./converter/converter");
 
-var _distance = _interopRequireDefault(require("./distance"));
+var _distance = _interopRequireDefault(require("./distance/distance"));
 
-var _distances = _interopRequireDefault(require("./distances"));
+var _distances = _interopRequireDefault(require("./distances/distances"));
 
-var _weightedAverage = _interopRequireDefault(require("./weightedAverage"));
+var _weightedAverage = _interopRequireDefault(require("./weightedAverage/weightedAverage"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
