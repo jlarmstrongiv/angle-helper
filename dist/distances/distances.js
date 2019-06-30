@@ -17,8 +17,8 @@ const distances = (targetAngle, angles) => {
 
   const distance = angles.map(angle => {
     // reflex angle 180 < x < 360
-    if (angle > 180) return 360 - angle; // absolute of angle for positive angle
-    else if (angle < 0) return -angle;else if (angle < -180) return 360 + angle; // angle 0 < x < 180
+    if (angle > 180) return 360 - angle;else if (angle < -180) return 360 + angle; // absolute of angle for positive angle
+    else if (angle < 0) return -angle; // angle 0 < x < 180
       else return angle;
   });
   return distance;
