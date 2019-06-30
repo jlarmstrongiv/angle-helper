@@ -1,6 +1,6 @@
 {
   "name": "angle-helper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Helper functions for working with angles and degrees",
   "main": "./dist/index.js",
   "module": "./src/index.js",

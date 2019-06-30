@@ -16,9 +16,10 @@ const distances = (targetAngle, angles) => {
   angles = angles.map(angle => angle - targetAngle); // degree distance
 
   const distance = angles.map(angle => {
-    if (angle > 180) return 360 - angle; // reflex angle 180 < x < 360
-    else if (angle < 0) return -angle; // absolute of angle for positive angle
-      else return angle; // angle 0 < x < 180
+    // reflex angle 180 < x < 360
+    if (angle > 180) return 360 - angle; // absolute of angle for positive angle
+    else if (angle < 0) return -angle;else if (angle < -180) return 360 + angle; // angle 0 < x < 180
+      else return angle;
   });
   return distance;
 };

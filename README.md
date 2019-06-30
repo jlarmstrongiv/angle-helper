@@ -34,7 +34,7 @@ const {
   distances,
   average,
   weightedAverage,
-} = require('angle-helper')
+} = require('angle-helper');
 ```
 
 #### Helper functions
@@ -59,9 +59,19 @@ average([45, 50, 55, 60]);
 
 // calculate weighted average
 // weights do not have to add to 1
-weightedAverage([45, 50, 55, 60], [0.2, 0.3, 0.2, 0.3])
+weightedAverage([45, 50, 55, 60], [0.2, 0.3, 0.2, 0.3]);
 ```
 
 ### License
 
 MIT
+
+### Change Log
+
+#### 0.0.0
+
+Publish package
+
+#### 0.0.1
+
+Fix distance formula when target angle < 90 and compared angles > 270.
