@@ -72,6 +72,6 @@ MIT
 
 Publish package
 
-#### 0.0.1
+#### 0.0.1 and 0.0.2
 
 Fix distance formula when target angle < 90 and compared angles > 270.

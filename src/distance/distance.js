@@ -11,9 +11,9 @@ const distance = (targetAngle, angle) => {
   let distance;
   // reflex angle 180 < x < 360
   if (angle > 180) distance = 360 - angle;
+  else if (angle < -180) return 360 + angle;
   // absolute of angle for positive angle
   else if (angle < 0) distance = -angle;
-  else if (angle < -180) return 360 + angle;
   // angle 0 < x < 180
   else distance = angle;
 
